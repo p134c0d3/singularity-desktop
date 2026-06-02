@@ -1,0 +1,142 @@
+# Contributing to Singularity Desktop
+
+Thanks for your interest in contributing! This guide gets you from zero to running
+a development build as fast as possible.
+
+---
+
+## Quick Start
+
+```bash
+# 1. Clone with submodules
+git clone --recurse-submodules https://github.com/singularityos-lab/singularity-desktop
+cd singularity-desktop
+
+# 2. Install dependencies (Fedora / Silverblue)
+sudo dnf install -y \
+  vala meson ninja-build \
+  gtk4-devel libadwaita-devel \
+  gtk4-layer-shell-devel \
+  wayland-devel wayland-protocols-devel \
+  vte291-gtk4-devel \
+  gtksourceview5-devel \
+  gstreamer1-devel gstreamer1-plugins-base-devel \
+  libpulse-devel \
+  polkit-devel \
+  json-glib-devel \
+  libpeas2-devel \
+  pipewire-devel
+
+# 3. Build
+meson setup build
+ninja -C build
+
+# 4. Deploy to your local user prefix
+bash scripts/deploy-to-host.sh
+
+# 5. Run (inside a labwc/Wayland session)
+singularity-desktop
+```
+
+---
+
+## Branching
+
+| Branch | Purpose |
+|--------|---------|
+| `main` | Stable, always builds |
+| `feat/<name>` | New features |
+| `fix/<name>` | Bug fixes |
+| `refactor/<name>` | Refactors (no behaviour change) |
+
+Open a PR against `main`. Keep PRs focused - one feature or fix per PR.
+
+---
+
+## Code Style
+
+Language: **Vala** (GTK4, no Adwaita dependency in core shell).
+
+- 4-space indentation, no tabs
+- Class names: `PascalCase`
+- Methods/fields: `snake_case`
+- Signals: `snake_case` (e.g. `monitors_changed`)
+- Private fields: `_snake_case` (underscore prefix)
+- Never use `var` when the type is not obvious from the right-hand side
+- Prefer `GLib.Subprocess.newv()` over `sh -c` for subprocess spawning
+- Never use `Gtk.MessageDialog` - use inline `Gtk.InfoBar` or a custom `SettingsPage`
+- Timers (`Timeout.add`, `Idle.add`) must store their ID and cancel in `dispose()`
+- Keep files focused: one primary class per `.vala` file, named after the class (e.g. `ScreenshotPortal` -> `screenshot.vala`). Redundant suffixes in the filename (like `_portal` or `_manager`) should be avoided.
+
+### Widget Guidelines
+
+- New reusable widgets go in `subprojects/libsingularity/src/widgets/`
+- Shell-only widgets (need GtkLayerShell) go in `subprojects/libsingularity/src/shell/`
+- App-specific widgets stay in the app's own directory
+- Follow the `PreferencesGroup` / `SwitchRow` / `ActionRow` pattern for settings UI
+- Settings pages must be **inline** (no modals). Use `SettingsView.open_subpage()` for detail pages
+
+---
+
+## Architecture Overview
+
+```
+singularity-desktop/
+├── src/
+│   ├── core/           # Shell core: app_system, display_manager, shortcuts...
+│   ├── components/
+│   │   ├── dock/       # Dock (GTK Layer Shell)
+│   │   ├── panel/      # Top panel
+│   │   └── sidebar/    # Settings sidebar + pages
+│   ├── apps/           # Bundled apps (edit, files, terminal, write...)
+│   ├── wayland/        # C Wayland protocol bindings
+│   └── portal/         # xdg-desktop-portal implementation
+├── subprojects/
+│   └── libsingularity/ # Shared widget library
+└── docs/               # Architecture and feature plans
+```
+
+---
+
+## Testing
+
+There is no automated test suite yet (Vala/GTK4 UI testing is hard). Please:
+
+1. **Build cleanly** - `ninja -C build` must produce zero errors and zero warnings
+2. **Deploy and run** - `bash scripts/deploy-to-host.sh`, restart the shell
+3. **Test your change** manually - cover the happy path and obvious edge cases
+4. **Check for timer leaks** - if you add a `Timeout.add`, make sure the ID is cancelled in `dispose()`
+
+---
+
+## Commit Style
+
+```
+component: short imperative summary (max 72 chars)
+
+Longer description if needed. Explain WHY, not WHAT (the diff shows what).
+
+Co-authored-by: Your Name <email@example.com>
+```
+
+Examples:
+- `dock: fix timer leak in dispose()`
+- `displays: add VRR toggle for adaptive-sync capable monitors`
+- `libsingularity: add AsyncThumbnail widget`
+
+---
+
+## Reporting Bugs
+
+Open a GitHub Issue with:
+- OS and compositor version
+- Steps to reproduce
+- Expected vs actual behaviour
+- `journalctl --user -u singularity-desktop -n 100` output
+
+---
+
+## Getting Help
+
+- Open a Discussion on GitHub for questions
+- Tag `@singularityos-lab/core` for review requests

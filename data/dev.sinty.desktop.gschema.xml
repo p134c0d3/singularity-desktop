@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="dev.sinty.desktop" path="/dev/sinty/desktop/">
+    <key name="pinned-apps" type="as">
+      <default>['firefox.desktop', 'org.gnome.Terminal.desktop']</default>
+      <summary>Pinned Applications</summary>
+      <description>List of desktop file IDs pinned to the dock.</description>
+    </key>
+    <key name="dock-position" type="s">
+      <default>'bottom'</default>
+      <summary>Position of the dock</summary>
+      <description>Position of the dock (bottom, left, right)</description>
+    </key>
+    <key name="dock-visibility-mode" type="s">
+      <default>'always'</default>
+      <summary>Dock visibility mode (always, overview-only)</summary>
+    </key>
+    <key name="dock-autohide" type="b">
+      <default>false</default>
+      <summary>Autohide the dock</summary>
+      <description>When enabled, the dock hides automatically when not in use.</description>
+    </key>
+    <key name="xkb-layout" type="s">
+      <default>'us'</default>
+      <summary>Keyboard layout</summary>
+    </key>
+    <key name="xkb-variant" type="s">
+      <default>''</default>
+      <summary>Keyboard variant</summary>
+    </key>
+    <key name="dock-intellihide" type="b">
+      <default>false</default>
+      <summary>Intelligent autohide</summary>
+      <description>Hide the dock when a window is maximized on the same monitor.</description>
+    </key>
+    <key name="dock-style" type="s">
+      <default>'floating'</default>
+      <summary>Dock style (floating, panel)</summary>
+    </key>
+    <key name="dock-alignment" type="s">
+      <default>'center'</default>
+      <summary>Dock alignment (start, center, end)</summary>
+    </key>
+    <key name="panel-fusion" type="b">
+      <default>false</default>
+      <summary>Merge top panel into dock</summary>
+    </key>
+    <key name="panel-flat" type="b">
+      <default>false</default>
+      <summary>Flat top panel</summary>
+      <description>When enabled, the top panel has a solid black background instead of being transparent.</description>
+    </key>
+    <key name="dock-gap" type="i">
+      <default>8</default>
+      <summary>Dock gap</summary>
+      <description>Gap in pixels between the dock and the screen edge, and between windows and the dock.</description>
+    </key>
+    <key name="dock-icon-size" type="i">
+      <default>48</default>
+      <summary>Dock icon size in pixels</summary>
+    </key>
+    <key name="dock-magnification" type="b">
+      <default>false</default>
+      <summary>Dock Magnification</summary>
+      <description>Magnify dock icons on hover, macOS-style.</description>
+    </key>
+    <key name="dock-extended-mode" type="b">
+      <default>false</default>
+      <summary>Extended Taskbar Mode</summary>
+      <description>Show window titles next to icons in panel mode.</description>
+    </key>
+    <key name="background-picture-uri" type="s">
+      <default>''</default>
+      <summary>URI of the background picture</summary>
+    </key>
+    <key name="recent-wallpapers" type="as">
+      <default>[]</default>
+      <summary>List of recently used wallpaper URIs</summary>
+    </key>
+    <key name="custom-shortcuts" type="a{ss}">
+      <default>{}</default>
+      <summary>Map of action names to custom accelerator strings</summary>
+    </key>
+    <key name="theme-mode" type="s">
+      <default>'system'</default>
+      <summary>Theme mode</summary>
+      <description>Theme mode (system, light, dark)</description>
+    </key>
+    <key name="dark-mode" type="b">
+      <default>true</default>
+      <summary>Dark Mode</summary>
+      <description>Whether dark mode is enabled.</description>
+    </key>
+    <key name="developer-mode" type="b">
+      <default>false</default>
+      <summary>Developer Mode</summary>
+      <description>Whether the Developer settings page is shown.</description>
+    </key>
+    <key name="singularity-theme" type="s">
+      <default>''</default>
+      <summary>Singularity Theme</summary>
+      <description>Name of the user theme to apply to Singularity apps. Must have a singularity/style.css inside a standard theme directory. Empty string means the built-in default theme.</description>
+    </key>
+    <key name="dynamic-workspaces" type="b">
+      <default>true</default>
+      <summary>Dynamic Workspaces</summary>
+      <description>Whether to automatically create/destroy workspaces.</description>
+    </key>
+    <key name="workspace-count" type="i">
+      <default>4</default>
+      <summary>Static Workspace Count</summary>
+      <description>Number of workspaces when dynamic mode is disabled.</description>
+    </key>
+
+    <key name="sound-output-device" type="s">
+      <default>'default'</default>
+      <summary>Sound Output Device</summary>
+      <description>ID of the selected sound output device.</description>
+    </key>
+    <key name="keyboard-layout" type="s">
+      <default>'us'</default>
+      <summary>Keyboard Layout</summary>
+      <description>Selected keyboard layout ID.</description>
+    </key>
+    <key name="keyboard-repeat" type="b">
+      <default>true</default>
+      <summary>Keyboard Repeat</summary>
+      <description>Whether to enable keyboard repeat.</description>
+    </key>
+    <key name="accent-color" type="s">
+      <default>'blue'</default>
+      <summary>Accent Color</summary>
+      <description>The accent color used by the desktop (blue, teal, green, yellow, orange, red, pink, purple, slate, wallpaper, custom).</description>
+    </key>
+    <key name="custom-accent-color" type="s">
+      <default>'#3584e4'</default>
+      <summary>Custom Accent Color</summary>
+      <description>Hex color (#rrggbb) used when accent-color is set to 'custom'.</description>
+    </key>
+    <key name="show-desktop-icons" type="b">
+      <default>false</default>
+      <summary>Show Desktop Icons</summary>
+      <description>Whether to show icons on the desktop from ~/Desktop folder.</description>
+    </key>
+
+    <key name="settings-in-window" type="b">
+      <default>false</default>
+      <summary>Open Settings in window</summary>
+      <description>When enabled, the Settings button opens a dedicated Settings window instead of using the sidebar.</description>
+    </key>
+
+    <key name="high-contrast" type="b">
+      <default>false</default>
+      <summary>High Contrast</summary>
+      <description>Whether high contrast mode is enabled.</description>
+    </key>
+    <key name="large-text" type="b">
+      <default>false</default>
+      <summary>Large Text</summary>
+      <description>Whether large text mode is enabled.</description>
+    </key>
+    <key name="screen-reader-enabled" type="b">
+      <default>false</default>
+      <summary>Screen Reader</summary>
+      <description>Whether the screen reader (orca) is enabled.</description>
+    </key>
+    <key name="gamemode-auto" type="b">
+      <default>false</default>
+      <summary>Auto Game Mode</summary>
+      <description>Automatically activate Game Mode when a fullscreen game is detected</description>
+    </key>
+    <key name="mangohud-auto" type="b">
+      <default>false</default>
+      <summary>Auto MangoHud</summary>
+      <description>Inject MangoHud overlay when launching games</description>
+    </key>
+    <key name="tiling-enabled" type="b">
+      <default>false</default>
+      <summary>Enable Tiling</summary>
+      <description>Whether tiling window management is enabled.</description>
+    </key>
+    <key name="preview-features-enabled" type="b">
+      <default>false</default>
+      <summary>Enable Preview Features</summary>
+      <description>Whether experimental features are visible.</description>
+    </key>
+    <key name="enabled-plugins" type="as">
+      <default>['mpris-dock', 'downloads-dock', 'telegram-dock', 'launcher-entry-dock', 'tray-icons', 'emoji-search', 'tailscale']</default>
+      <summary>Enabled Plugins</summary>
+      <description>List of enabled plugin module names.</description>
+    </key>
+    <key name="dock-pinned-suffixes" type="as">
+      <default>[]</default>
+      <summary>Dock items with pinned (always-expanded) suffix widgets</summary>
+      <description>App ids whose dock-item suffix area stays expanded without hover.</description>
+    </key>
+    <key name="force-ssd" type="b">
+      <default>false</default>
+      <summary>Disable Client Side Decorations</summary>
+      <description>Forces Server Side Decorations (SSD) by disabling CSD in GTK and Qt apps.</description>
+    </key>
+    <key name="window-rounded-corners" type="b">
+      <default>true</default>
+      <summary>Rounded window corners</summary>
+      <description>Round the corners of non-maximized, non-tiled app windows.</description>
+    </key>
+    <key name="app-launcher-mode" type="s">
+      <default>'fullscreen'</default>
+      <summary>App Launcher Mode</summary>
+      <description>Mode of the app launcher (fullscreen, menu)</description>
+    </key>
+    <key name="switcher-style" type="s">
+      <default>'list'</default>
+      <summary>App Switcher Style</summary>
+      <description>Layout style of the Alt+Tab switcher: 'list' (vertical, icon+title) or 'grid' (horizontal icons)</description>
+    </key>
+    <key name="do-not-disturb" type="b">
+      <default>false</default>
+      <summary>Do Not Disturb</summary>
+      <description>When enabled, notifications are suppressed.</description>
+    </key>
+    <key name="active-window-title" type="s">
+      <default>''</default>
+      <summary>Active Window Title</summary>
+      <description>Title of the currently focused window. Updated by the shell.</description>
+    </key>
+    <key name="window-states" type="a{s(iib)}">
+      <default>{}</default>
+      <summary>Saved window states</summary>
+      <description>Per-app window size and maximized state, keyed by application ID.</description>
+    </key>
+    <key name="shell-monitor" type="s">
+      <default>''</default>
+      <summary>Connector name of the monitor where shell windows spawn (e.g. DP-1). Empty = auto.</summary>
+    </key>
+    <key name="dock-multi-monitor" type="b">
+      <default>false</default>
+      <summary>Show dock on all monitors</summary>
+      <description>When enabled, the dock appears on every connected monitor.</description>
+    </key>
+    <key name="panel-multi-monitor" type="b">
+      <default>false</default>
+      <summary>Show panel on all monitors</summary>
+      <description>When enabled, the top panel appears on every connected monitor.</description>
+    </key>
+    <key name="hot-corner-top-left" type="s">
+      <default>'workspaces'</default>
+      <summary>Hot corner action for top-left</summary>
+    </key>
+    <key name="hot-corner-top-right" type="s">
+      <default>'settings'</default>
+      <summary>Hot corner action for top-right</summary>
+    </key>
+    <key name="hot-corner-bottom-left" type="s">
+      <default>'none'</default>
+      <summary>Hot corner action for bottom-left</summary>
+    </key>
+    <key name="hot-corner-bottom-right" type="s">
+      <default>'none'</default>
+      <summary>Hot corner action for bottom-right</summary>
+    </key>
+    <key name="app-folders" type="s">
+      <default>'{}'</default>
+      <summary>App Folders</summary>
+      <description>JSON object mapping folder IDs to {name, apps:[]} structures.</description>
+    </key>
+    <key name="app-grid-order" type="as">
+      <default>[]</default>
+      <summary>App Grid Order</summary>
+      <description>Ordered list of grid item keys for the overview: app IDs, folder:&lt;id&gt; entries, and widget:&lt;instance_id&gt; entries (Android-style mixed grid).</description>
+    </key>
+    <key name="dock-resources" type="as">
+      <default>[]</default>
+      <summary>Dock resources (files, folders, links)</summary>
+      <description>List of URIs pinned to the dock - files, folders, and web links dropped onto the dock à la macOS. Membership only; ordering lives in dock-order.</description>
+    </key>
+    <key name="dock-order" type="as">
+      <default>[]</default>
+      <summary>Unified dock order (pinned apps + resources)</summary>
+      <description>Interleaved order of the dock's pinned section: entries are pin:&lt;app-id&gt; and res:&lt;uri&gt;. Lets apps and dropped resources be reordered relative to each other. Items not listed fall back to their own settings' order.</description>
+    </key>
+    <key name="overview-widgets" type="a(ssiis)">
+      <default>[]</default>
+      <summary>Overview widget instances</summary>
+      <description>Tuples (instance_id, provider_id, width, height, config_json) describing each placed widget. width/height are in grid cells (e.g. 2x1, 2x2). config_json is provider-specific JSON-encoded state.</description>
+    </key>
+    <key name="clock-use-12h" type="b">
+      <default>false</default>
+      <summary>Use 12-hour clock format</summary>
+      <description>When enabled, the clock shows AM/PM instead of 24-hour time.</description>
+    </key>
+    <key name="extreme-mode-active" type="b">
+      <default>false</default>
+      <summary>Extreme Power Saving Mode</summary>
+      <description>When enabled, reduces power consumption for AMOLED displays by enforcing dark theme and minimizing brightness.</description>
+    </key>
+    <key name="extreme-mode-saved-brightness" type="d">
+      <default>1.0</default>
+      <summary>Saved brightness before extreme mode</summary>
+    </key>
+    <key name="extreme-mode-saved-dark-mode" type="b">
+      <default>false</default>
+      <summary>Saved dark mode preference before extreme mode</summary>
+    </key>
+    <key name="extreme-mode-saved-animations" type="b">
+      <default>true</default>
+      <summary>Saved animations preference before extreme mode</summary>
+    </key>
+  </schema>
+</schemalist>

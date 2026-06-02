@@ -1,0 +1,49 @@
+# Singularity Desktop Environment
+
+A Wayland desktop environment built on GTK4 and the labwc compositor. It
+provides the shell (panel, dock, overview, workspaces, notifications, settings,
+spotlight, lock screen and greeter) and a first-party set of applications, all
+sharing the [libsingularity](subprojects/libsingularity) toolkit.
+
+## Requirements
+
+- [Meson](https://mesonbuild.com/) >= 0.59
+- [Vala](https://vala.dev/) compiler
+- GTK4 >= 4.6 and gtk4-layer-shell
+- wayland-client and wayland-scanner
+- libnm, upower-glib, libpulse, goa-1.0, polkit-gobject-1
+- gnome-desktop-4, libsoup-3.0, json-glib-1.0, libpeas-2
+- vte-2.91-gtk4, gtksourceview-5, poppler-glib
+- dbusmenu-glib-0.4, atspi-2, tracker-sparql-3.0, gudev-1.0, libcrypt
+- labwc (built as a subproject) and xdg-desktop-portal-singularity
+
+## Build & Install
+
+```sh
+meson setup build
+meson compile -C build
+meson install -C build
+```
+
+The project installs under the prefix passed to `meson setup --prefix` (the
+distribution default is `/opt/local`; pass `--prefix=/usr` for a standard
+layout). The session does not hardcode the prefix: binaries are resolved next
+to the running executable and via `PATH`, and data is found through
+`XDG_DATA_DIRS`.
+
+## Configuration
+
+Desktop preferences live in the `dev.sinty.desktop` GSettings schema (dark
+mode, accent color, dock and workspace layout, developer mode, and more).
+
+## Components
+
+- Shell: `src/` (core managers, panel, dock, overview, sidebar/settings).
+- Toolkit: `subprojects/libsingularity`.
+- Compositor: `subprojects/labwc`.
+- Portals: `subprojects/xdg-desktop-portal-singularity`.
+- Applications: the other `subprojects/singularity-*` repositories.
+
+## License
+
+GPL-3.0 - see [LICENSE](LICENSE).

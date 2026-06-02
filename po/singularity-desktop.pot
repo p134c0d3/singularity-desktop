@@ -1,0 +1,2159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the singularity-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: singularity-desktop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-01 23:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/dev.sinty.desktop.gschema.xml:6
+msgid "Pinned Applications"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:7
+msgid "List of desktop file IDs pinned to the dock."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:11
+msgid "Position of the dock"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:12
+msgid "Position of the dock (bottom, left, right)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:16
+msgid "Dock visibility mode (always, overview-only)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:20
+msgid "Autohide the dock"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:21
+msgid "When enabled, the dock hides automatically when not in use."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:25
+msgid "Keyboard layout"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:29
+msgid "Keyboard variant"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:33
+msgid "Intelligent autohide"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:34
+msgid "Hide the dock when a window is maximized on the same monitor."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:38
+msgid "Dock style (floating, panel)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:42
+msgid "Dock alignment (start, center, end)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:46
+#: src/components/sidebar/pages/desktop_page.vala:848
+msgid "Merge top panel into dock"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:50
+msgid "Flat top panel"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:51
+msgid ""
+"When enabled, the top panel has a solid black background instead of being "
+"transparent."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:55
+msgid "Dock gap"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:56
+msgid ""
+"Gap in pixels between the dock and the screen edge, and between windows and "
+"the dock."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:60
+msgid "Dock icon size in pixels"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:64
+msgid "Dock Magnification"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:65
+msgid "Magnify dock icons on hover, macOS-style."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:69
+#: src/components/sidebar/pages/desktop_page.vala:834
+msgid "Extended Taskbar Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:70
+msgid "Show window titles next to icons in panel mode."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:74
+msgid "URI of the background picture"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:78
+msgid "List of recently used wallpaper URIs"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:82
+msgid "Map of action names to custom accelerator strings"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:86
+msgid "Theme mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:87
+msgid "Theme mode (system, light, dark)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:91
+#: src/components/sidebar/pages/desktop_page.vala:327
+msgid "Dark Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:92
+msgid "Whether dark mode is enabled."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:96
+#: src/components/sidebar/pages/system_page.vala:61
+msgid "Developer Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:97
+msgid "Whether the Developer settings page is shown."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:101
+#: src/components/sidebar/pages/desktop_page.vala:574
+msgid "Singularity Theme"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:102
+msgid ""
+"Name of the user theme to apply to Singularity apps. Must have a singularity/"
+"style.css inside a standard theme directory. Empty string means the built-in "
+"default theme."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:106
+#: src/components/sidebar/pages/desktop_page.vala:775
+msgid "Dynamic Workspaces"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:107
+msgid "Whether to automatically create/destroy workspaces."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:111
+msgid "Static Workspace Count"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:112
+msgid "Number of workspaces when dynamic mode is disabled."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:117
+msgid "Sound Output Device"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:118
+msgid "ID of the selected sound output device."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:122
+msgid "Keyboard Layout"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:123
+msgid "Selected keyboard layout ID."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:127
+msgid "Keyboard Repeat"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:128
+msgid "Whether to enable keyboard repeat."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:132
+#: src/components/sidebar/pages/desktop_page.vala:341
+msgid "Accent Color"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:133
+msgid ""
+"The accent color used by the desktop (blue, teal, green, yellow, orange, "
+"red, pink, purple, slate, wallpaper, custom)."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:137
+#: src/components/sidebar/pages/desktop_page.vala:502
+msgid "Custom Accent Color"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:138
+msgid "Hex color (#rrggbb) used when accent-color is set to 'custom'."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:142
+#: src/components/sidebar/pages/desktop_page.vala:725
+msgid "Show Desktop Icons"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:143
+msgid "Whether to show icons on the desktop from ~/Desktop folder."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:148
+msgid "Open Settings in window"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:149
+msgid ""
+"When enabled, the Settings button opens a dedicated Settings window instead "
+"of using the sidebar."
+msgstr ""
+
+#. High Contrast
+#: data/dev.sinty.desktop.gschema.xml:154
+#: src/components/sidebar/pages/accessibility_page.vala:50
+msgid "High Contrast"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:155
+msgid "Whether high contrast mode is enabled."
+msgstr ""
+
+#. Large Text
+#: data/dev.sinty.desktop.gschema.xml:159
+#: src/components/sidebar/pages/accessibility_page.vala:32
+msgid "Large Text"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:160
+msgid "Whether large text mode is enabled."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:164
+msgid "Screen Reader"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:165
+msgid "Whether the screen reader (orca) is enabled."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:169
+#: src/components/sidebar/pages/performance_page.vala:21
+msgid "Auto Game Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:170
+msgid "Automatically activate Game Mode when a fullscreen game is detected"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:174
+#: src/components/sidebar/pages/performance_page.vala:55
+msgid "Auto MangoHud"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:175
+msgid "Inject MangoHud overlay when launching games"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:179
+msgid "Enable Tiling"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:180
+msgid "Whether tiling window management is enabled."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:184
+msgid "Enable Preview Features"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:185
+msgid "Whether experimental features are visible."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:189
+msgid "Enabled Plugins"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:190
+msgid "List of enabled plugin module names."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:194
+msgid "Dock items with pinned (always-expanded) suffix widgets"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:195
+msgid "App ids whose dock-item suffix area stays expanded without hover."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:199
+#: src/components/sidebar/pages/desktop_page.vala:757
+msgid "Disable Client Side Decorations"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:200
+msgid ""
+"Forces Server Side Decorations (SSD) by disabling CSD in GTK and Qt apps."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:204
+msgid "Rounded window corners"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:205
+msgid "Round the corners of non-maximized, non-tiled app windows."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:209
+msgid "App Launcher Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:210
+msgid "Mode of the app launcher (fullscreen, menu)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:214
+msgid "App Switcher Style"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:215
+msgid ""
+"Layout style of the Alt+Tab switcher: 'list' (vertical, icon+title) or "
+"'grid' (horizontal icons)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:219
+msgid "Do Not Disturb"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:220
+msgid "When enabled, notifications are suppressed."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:224
+msgid "Active Window Title"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:225
+msgid "Title of the currently focused window. Updated by the shell."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:229
+msgid "Saved window states"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:230
+msgid "Per-app window size and maximized state, keyed by application ID."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:234
+msgid ""
+"Connector name of the monitor where shell windows spawn (e.g. DP-1). Empty = "
+"auto."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:238
+msgid "Show dock on all monitors"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:239
+msgid "When enabled, the dock appears on every connected monitor."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:243
+msgid "Show panel on all monitors"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:244
+msgid "When enabled, the top panel appears on every connected monitor."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:248
+msgid "Hot corner action for top-left"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:252
+msgid "Hot corner action for top-right"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:256
+msgid "Hot corner action for bottom-left"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:260
+msgid "Hot corner action for bottom-right"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:264
+msgid "App Folders"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:265
+msgid "JSON object mapping folder IDs to {name, apps:[]} structures."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:269
+msgid "App Grid Order"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:270
+msgid ""
+"Ordered list of grid item keys for the overview: app IDs, folder:<id> "
+"entries, and widget:<instance_id> entries (Android-style mixed grid)."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:274
+msgid "Dock resources (files, folders, links)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:275
+msgid ""
+"List of URIs pinned to the dock - files, folders, and web links dropped onto "
+"the dock à la macOS. Membership only; ordering lives in dock-order."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:279
+msgid "Unified dock order (pinned apps + resources)"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:280
+msgid ""
+"Interleaved order of the dock's pinned section: entries are pin:<app-id> and "
+"res:<uri>. Lets apps and dropped resources be reordered relative to each "
+"other. Items not listed fall back to their own settings' order."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:284
+msgid "Overview widget instances"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:285
+msgid ""
+"Tuples (instance_id, provider_id, width, height, config_json) describing "
+"each placed widget. width/height are in grid cells (e.g. 2x1, 2x2). "
+"config_json is provider-specific JSON-encoded state."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:289
+msgid "Use 12-hour clock format"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:290
+msgid "When enabled, the clock shows AM/PM instead of 24-hour time."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:294
+msgid "Extreme Power Saving Mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:295
+msgid ""
+"When enabled, reduces power consumption for AMOLED displays by enforcing "
+"dark theme and minimizing brightness."
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:299
+msgid "Saved brightness before extreme mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:303
+msgid "Saved dark mode preference before extreme mode"
+msgstr ""
+
+#: data/dev.sinty.desktop.gschema.xml:307
+msgid "Saved animations preference before extreme mode"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:31
+#: src/components/calendar/calendar_view.vala:152
+msgid "Events"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:66
+msgid "%B %Y"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:155
+#, c-format
+msgid "Events - %s"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:155
+msgid "%B %d, %Y"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:166
+msgid "No events"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:207
+msgid "Edit event"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:214
+msgid "Delete event"
+msgstr ""
+
+#. "Add Event" button at the bottom
+#: src/components/calendar/calendar_view.vala:228
+msgid "Add Event"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:252
+msgid "Event title"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:257
+msgid "Description (optional)"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:262
+msgid "All Day"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:277
+msgid "From"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:279
+msgid "To"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:289
+#: src/components/sidebar/pages/users_page.vala:237
+#: src/components/sidebar/views/power_confirm_dialog.vala:60
+#: src/shared/widgets/password_dialog.vala:61
+msgid "Cancel"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:291
+msgid "Update"
+msgstr ""
+
+#: src/components/calendar/calendar_view.vala:291
+#: src/components/sidebar/pages/accounts_page.vala:20
+#: src/components/sidebar/pages/accounts_page.vala:39
+msgid "Add"
+msgstr ""
+
+#: src/components/dock/dock_resources.vala:247
+msgid "Couldn't read folder"
+msgstr ""
+
+#: src/components/dock/dock.vala:706 src/greeter/greeter_window.vala:197
+#: src/lockscreen/lock_screen.vala:278
+msgid "%H:%M"
+msgstr ""
+
+#: src/components/dock/dock.vala:1210 src/components/dock/dock.vala:1213
+#: src/components/sidebar/pages/desktop_page.vala:774
+msgid "Workspaces"
+msgstr ""
+
+#. Empty State
+#: src/components/notifications/notification_center.vala:23
+msgid "No new notifications"
+msgstr ""
+
+#: src/components/notifications/notification_center.vala:136
+msgid "Clear all"
+msgstr ""
+
+#: src/components/overview/app_launcher_grid.vala:728
+msgid "Widget unavailable"
+msgstr ""
+
+#: src/components/overview/app_menu.vala:74
+msgid "Search..."
+msgstr ""
+
+#: src/components/overview/overview.vala:133
+msgid "Type to search"
+msgstr ""
+
+#. Set tooltip with real-time shortcut
+#: src/components/panel/panel.vala:99 src/components/panel/panel.vala:102
+msgid "Overview"
+msgstr ""
+
+#: src/components/panel/panel.vala:235
+#, c-format
+msgid "VPN: %s"
+msgstr ""
+
+#: src/components/preview/preview_dialog.vala:68
+#: src/components/sidebar/widgets/developer_page.vala:108
+msgid "Open"
+msgstr ""
+
+#: src/components/run_dialog/run_dialog.vala:57
+msgid "Search apps or run a command…"
+msgstr ""
+
+#: src/components/run_dialog/run_dialog.vala:216
+#: src/components/run_dialog/run_dialog.vala:301
+#, c-format
+msgid "Error: %s"
+msgstr ""
+
+#: src/components/run_dialog/run_dialog.vala:341
+#, c-format
+msgid "Nested launch failed: %s"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:19
+#: src/components/sidebar/views/settings_view.vala:96
+msgid "Accessibility"
+msgstr ""
+
+#. Vision
+#: src/components/sidebar/pages/accessibility_page.vala:28
+msgid "Vision"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:32
+msgid "Increase the font size across the desktop"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:50
+msgid "Increase contrast for better visibility"
+msgstr ""
+
+#. Reduce Motion (inverted: enable-animations = false means reduce motion = true)
+#: src/components/sidebar/pages/accessibility_page.vala:67
+msgid "Reduce Motion"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:67
+msgid "Minimise animations throughout the interface"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:91
+msgid "Cursor Size"
+msgstr ""
+
+#. Hearing
+#: src/components/sidebar/pages/accessibility_page.vala:116
+msgid "Hearing"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:119
+msgid "Visual Bell"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:119
+msgid "Flash the screen instead of playing a sound alert"
+msgstr ""
+
+#. Keyboard
+#: src/components/sidebar/pages/accessibility_page.vala:136
+#: src/components/sidebar/pages/keyboard_page.vala:13
+#: src/components/sidebar/views/settings_view.vala:91
+msgid "Keyboard"
+msgstr ""
+
+#. Sticky Keys
+#: src/components/sidebar/pages/accessibility_page.vala:140
+msgid "Sticky Keys"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:140
+msgid ""
+"Hold modifier keys (Shift, Ctrl…) one at a time instead of simultaneously"
+msgstr ""
+
+#. Slow Keys
+#: src/components/sidebar/pages/accessibility_page.vala:145
+msgid "Slow Keys"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:145
+msgid "Require keys to be held for a moment before they are accepted"
+msgstr ""
+
+#. Bounce Keys
+#: src/components/sidebar/pages/accessibility_page.vala:150
+msgid "Bounce Keys"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:150
+msgid "Ignore rapid repeated keypresses of the same key"
+msgstr ""
+
+#. Mouse & Pointer
+#: src/components/sidebar/pages/accessibility_page.vala:155
+msgid "Mouse & Pointer"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:158
+msgid "Mouse Keys"
+msgstr ""
+
+#: src/components/sidebar/pages/accessibility_page.vala:158
+msgid "Control the mouse pointer using the numeric keypad"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:13
+#: src/components/sidebar/pages/accounts_page.vala:36
+#: src/components/sidebar/views/settings_view.vala:84
+msgid "Online Accounts"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:18
+msgid "Local Calendar"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:19
+msgid "Add Calendar from File"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:19
+msgid "Import events from .ics file"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:33
+msgid "My Calendars"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:38
+#: src/components/sidebar/pages/add_account_page.vala:20
+msgid "Add Account"
+msgstr ""
+
+#: src/components/sidebar/pages/accounts_page.vala:38
+msgid "Connect to Google, Nextcloud, etc."
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:76
+msgid "Server"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:82
+msgid "Credentials"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:98
+#: src/components/sidebar/pages/add_account_page.vala:121
+#: src/components/sidebar/pages/bluetooth_page.vala:103
+#: src/components/sidebar/pages/network_page.vala:282
+#: src/components/sidebar/pages/network_page.vala:329
+#: src/shared/widgets/password_dialog.vala:70
+msgid "Connect"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:109
+#, c-format
+msgid "Click Connect to sign in with your %s account."
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:140
+msgid "Contacting provider..."
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:144
+msgid "Provider not supported"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:155
+msgid "Account creation cancelled"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:159
+msgid "Failed: "
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:169
+msgid "Please fill in all fields"
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:173
+msgid "Connecting..."
+msgstr ""
+
+#: src/components/sidebar/pages/add_account_page.vala:200
+msgid "Failed to connect: "
+msgstr ""
+
+#: src/components/sidebar/pages/add_input_source_page.vala:26
+#: src/components/sidebar/pages/keyboard_page.vala:74
+msgid "Add Input Source"
+msgstr ""
+
+#: src/components/sidebar/pages/add_input_source_page.vala:33
+msgid "Search languages..."
+msgstr ""
+
+#: src/components/sidebar/pages/add_input_source_page.vala:36
+msgid "Available Layouts"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:271
+#: src/components/sidebar/pages/app_details_page.vala:400
+msgid "Permissions"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:280
+msgid "Loading permissions…"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:328
+msgid "Filesystems"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:328
+msgid "Access to host filesystem locations"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:365
+msgid "Environment"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:365
+msgid "Environment variables set in the sandbox"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:401
+msgid "Could not read Flatpak permissions"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:468
+#: src/components/sidebar/pages/apps_page.vala:77
+msgid "App Settings"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:470
+msgid "Loading settings..."
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:487
+#: src/components/sidebar/pages/plugin_details_page.vala:127
+msgid "No settings available"
+msgstr ""
+
+#: src/components/sidebar/pages/app_details_page.vala:503
+msgid "Settings schema not found"
+msgstr ""
+
+#: src/components/sidebar/pages/apps_page.vala:18
+#: src/components/sidebar/pages/sound_page.vala:74
+msgid "Applications"
+msgstr ""
+
+#. Default Apps entry
+#: src/components/sidebar/pages/apps_page.vala:25
+msgid "Defaults"
+msgstr ""
+
+#: src/components/sidebar/pages/apps_page.vala:26
+#: src/components/sidebar/pages/default_apps_page.vala:9
+msgid "Default Apps"
+msgstr ""
+
+#: src/components/sidebar/pages/apps_page.vala:26
+msgid "Set which app opens each file type"
+msgstr ""
+
+#. Installed apps
+#: src/components/sidebar/pages/apps_page.vala:43
+msgid "Installed"
+msgstr ""
+
+#: src/components/sidebar/pages/apps_page.vala:45
+msgid "Search apps..."
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:13
+#: src/components/sidebar/pages/bluetooth_page.vala:29
+#: src/components/sidebar/views/settings_view.vala:90
+msgid "Bluetooth"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:28
+msgid "General"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:29
+msgid "Turn Bluetooth on or off"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:35
+msgid "Devices"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:63
+msgid "No devices found"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:85
+#: src/components/sidebar/pages/network_page.vala:41
+#: src/components/sidebar/pages/network_page.vala:46
+#: src/components/sidebar/pages/network_page.vala:173
+msgid "Connected"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:89
+msgid "Paired"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:97
+#: src/components/sidebar/pages/network_page.vala:275
+#: src/components/sidebar/pages/network_page.vala:322
+msgid "Disconnect"
+msgstr ""
+
+#: src/components/sidebar/pages/bluetooth_page.vala:112
+msgid "Forget Device"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:17
+#: src/components/sidebar/pages/datetime_page.vala:90
+#: src/components/sidebar/pages/datetime_page.vala:96
+#: src/components/sidebar/views/settings_view.vala:87
+msgid "Date & Time"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:74
+#: src/components/sidebar/pages/default_apps_page.vala:230
+#: src/components/sidebar/pages/displays_page.vala:31
+msgid "Apply"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:91
+msgid "Automatic Date & Time"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:91
+msgid "Requires internet access"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:100
+#: src/components/sidebar/pages/displays_page.vala:156
+#: src/components/sidebar/pages/displays_page.vala:184
+msgid "Set"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:125
+msgid "Time Zone"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:131
+msgid "24-hour Time"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:165
+msgid "%a %b %d, %I:%M %p"
+msgstr ""
+
+#: src/components/sidebar/pages/datetime_page.vala:165
+msgid "%a %b %d, %H:%M"
+msgstr ""
+
+#. Build child format rows first so we can reference them
+#: src/components/sidebar/pages/default_apps_page.vala:99
+msgid "Individual formats"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:149
+msgid "No apps found"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:193
+msgid "Custom"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:196
+msgid "MIME Type"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:198
+msgid "e.g. application/x-custom"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:203
+msgid "Application"
+msgstr ""
+
+#: src/components/sidebar/pages/default_apps_page.vala:204
+#: src/components/sidebar/pages/default_apps_page.vala:220
+#: src/components/sidebar/pages/default_apps_page.vala:239
+msgid "Choose…"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:53
+#: src/components/sidebar/views/settings_view.vala:88
+msgid "Desktop"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:61
+#: src/components/sidebar/pages/keyboard_page.vala:175
+msgid "Reset to Default"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:68
+msgid "Current Wallpaper"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:120
+msgid "Wallpapers"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:154
+msgid "Appearance"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:327
+msgid "Use dark theme"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:361
+msgid "Wallpaper Color"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:458
+msgid "Custom Color"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:502
+msgid "Pick a precise color"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:544
+msgid "Hex"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:558
+msgid "Pick color from screen"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:576
+msgid "Visual style for Singularity apps"
+msgstr ""
+
+#. Theme Fine Tuning expander
+#: src/components/sidebar/pages/desktop_page.vala:583
+msgid "Theme Fine Tuning"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:583
+msgid "Advanced GTK and Qt theme overrides"
+msgstr ""
+
+#. GTK3 selector
+#: src/components/sidebar/pages/desktop_page.vala:623
+msgid "GTK3 Theme"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:659
+msgid "GTK4 Theme"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:695
+msgid "Qt Theme"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:695
+#: src/components/sidebar/pages/desktop_page.vala:929
+msgid "Default"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:715
+msgid "App Launcher"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:724
+msgid "Desktop Icons"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:725
+msgid "Display files from ~/Desktop on screen"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:732
+#: src/components/sidebar/pages/displays_page.vala:59
+#: src/components/sidebar/pages/plugin_details_page.vala:109
+#: src/components/sidebar/pages/plugin_details_page.vala:126
+#: src/components/sidebar/settings_window.vala:14
+#: src/components/sidebar/views/settings_view.vala:126
+msgid "Settings"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:744
+msgid "Window Management"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:745
+msgid "Rounded Corners"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:745
+msgid "Round app window corners when not maximized or tiled"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:751
+msgid "Tiling"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:751
+msgid "Automatically arrange windows in a grid"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:757
+msgid "Force standard window titles (requires app restart)"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:769
+#: src/components/sidebar/pages/desktop_page.vala:1019
+msgid "Window Decorations"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:769
+msgid "Not available on this system"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:770
+msgid "Window decorations"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:770
+msgid "Missing schema org.gnome.desktop.wm.preferences"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:775
+msgid "Automatically remove empty workspaces"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:787
+msgid "Dock"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:794
+msgid "Autohide"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:794
+msgid "Hide dock when not in use"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:800
+msgid "Hide if Maximized"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:800
+msgid "Hide dock when a window is maximized"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:821
+msgid "Position"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:821
+msgid "Bottom"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:821
+#: src/components/sidebar/pages/desktop_page.vala:1068
+msgid "Left"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:821
+#: src/components/sidebar/pages/desktop_page.vala:1068
+msgid "Right"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:827
+msgid "Advanced Dock"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:834
+msgid "Show window titles (panel style only)"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:843
+msgid "Alignment"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:843
+msgid "Start"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:843
+msgid "Center"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:843
+msgid "End"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:848
+msgid "Panel Fusion"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:856
+#: src/components/sidebar/pages/desktop_page.vala:864
+msgid "Forced visible by Panel Fusion"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:859
+msgid "Show dock on desktop"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:867
+msgid "Flat Panel"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:867
+msgid "Solid black background instead of transparent"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:873
+msgid "Dock on All Monitors"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:873
+msgid "Show dock on every connected screen"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:879
+msgid "Panel on All Monitors"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:879
+msgid "Show top bar on every connected screen"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:890
+msgid "Dock Gap"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:911
+msgid "Icon Size"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:926
+msgid "Small"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:932
+msgid "Big"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1019
+msgid "Configure titlebar buttons (restart required for SSD mode)"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1040
+msgid "Titlebar"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1068
+msgid "Buttons Side"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1071
+msgid "Close"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1071
+msgid "Show close button"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1072
+msgid "Minimize"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1072
+msgid "Show minimize button"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1073
+msgid "Maximize"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1073
+msgid "Show maximize button"
+msgstr ""
+
+#. Window Switcher group
+#: src/components/sidebar/pages/desktop_page.vala:1107
+msgid "Window Switcher"
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1714
+msgid "Select Picture..."
+msgstr ""
+
+#: src/components/sidebar/pages/desktop_page.vala:1785
+#: src/components/sidebar/widgets/developer_page.vala:177
+msgid "Wallpaper"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:24
+#: src/components/sidebar/views/settings_view.vala:85
+msgid "Displays"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:81
+msgid "Enabled"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:81
+msgid "Enable or disable this display"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:91
+msgid "Resolution"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:100
+msgid "Scale"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:118
+msgid "Orientation"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:134
+msgid "Variable Refresh Rate"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:134
+msgid "Reduce screen tearing for games (requires VRR-capable display)"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:151
+msgid "Shell Monitor"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:184
+#: src/components/sidebar/views/system_view.vala:335
+#: src/components/sidebar/views/system_view.vala:342
+msgid "Active"
+msgstr ""
+
+#: src/components/sidebar/pages/displays_page.vala:202
+msgid "Unknown Display"
+msgstr ""
+
+#. Hot Corners
+#: src/components/sidebar/pages/displays_page.vala:341
+#: src/components/sidebar/widgets/developer_page.vala:201
+msgid "Hot Corners"
+msgstr ""
+
+#. Center label
+#: src/components/sidebar/pages/displays_page.vala:372
+msgid "Screen"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:19
+msgid "Shortcuts"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:25
+msgid "Input Sources"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:57
+msgid "Cannot remove the last input source"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:63
+msgid "Remove Input Source"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:186
+msgid "Click to rebind"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:192
+msgid "Execute Action"
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:209
+msgid "Press any key..."
+msgstr ""
+
+#: src/components/sidebar/pages/keyboard_page.vala:212
+msgid "Press Esc to cancel"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:9
+#: src/components/sidebar/views/settings_view.vala:81
+msgid "Network"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:14
+#: src/components/sidebar/pages/network_page.vala:15
+msgid "Wi-Fi"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:39
+msgid "Wired"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:40
+msgid "Wired Connection"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:41
+#: src/components/sidebar/pages/network_page.vala:46
+msgid "Not Connected"
+msgstr ""
+
+#. VPN section
+#: src/components/sidebar/pages/network_page.vala:51
+msgid "VPN"
+msgstr ""
+
+#. Add a VPN by hand - opens our native multi-level page (back arrow),
+#. not a dialog and not GNOME's settings.
+#: src/components/sidebar/pages/network_page.vala:82
+#: src/components/sidebar/pages/vpn_config_page.vala:39
+#: src/components/sidebar/pages/vpn_config_page.vala:75
+msgid "Add VPN"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:82
+msgid "Enter WireGuard or OpenVPN details"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:91
+#: src/components/sidebar/pages/network_page.vala:96
+msgid "Import VPN Configuration"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:91
+msgid "OpenVPN .ovpn, WireGuard .conf, or .nmconnection"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:135
+msgid "Wi-Fi is disabled"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:147
+msgid "No networks found"
+msgstr ""
+
+#: src/components/sidebar/pages/network_page.vala:243
+msgid "No VPN connections configured"
+msgstr ""
+
+#. Notifications
+#: src/components/sidebar/pages/notifications_page.vala:9
+#: src/components/sidebar/widgets/developer_page.vala:276
+msgid "Notifications"
+msgstr ""
+
+#: src/components/sidebar/pages/notifications_page.vala:14
+msgid "Clear All"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:9
+#: src/components/sidebar/views/settings_view.vala:98
+msgid "Performance"
+msgstr ""
+
+#. Game Mode
+#: src/components/sidebar/pages/performance_page.vala:16
+msgid "Game Mode"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:30
+msgid "Game Mode Active"
+msgstr ""
+
+#. MangoHud
+#: src/components/sidebar/pages/performance_page.vala:50
+msgid "MangoHud"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:73
+msgid "Power Profile"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:76
+msgid "Profile"
+msgstr ""
+
+#. Display link
+#: src/components/sidebar/pages/performance_page.vala:84
+msgid "Display"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:85
+msgid "Variable Refresh Rate (VRR)"
+msgstr ""
+
+#: src/components/sidebar/pages/performance_page.vala:85
+msgid "Configure VRR in Display settings"
+msgstr ""
+
+#. Add Disable button
+#: src/components/sidebar/pages/plugin_details_page.vala:79
+#: src/components/sidebar/pages/plugin_details_page.vala:94
+msgid "Status"
+msgstr ""
+
+#: src/components/sidebar/pages/plugin_details_page.vala:80
+msgid "Plugin is disabled"
+msgstr ""
+
+#: src/components/sidebar/pages/plugin_details_page.vala:81
+msgid "Enable"
+msgstr ""
+
+#: src/components/sidebar/pages/plugin_details_page.vala:95
+msgid "Plugin is enabled"
+msgstr ""
+
+#: src/components/sidebar/pages/plugin_details_page.vala:96
+msgid "Disable"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:21
+#: src/components/sidebar/views/settings_view.vala:97
+msgid "Plugins"
+msgstr ""
+
+#. Search
+#: src/components/sidebar/pages/plugins_page.vala:30
+msgid "Search plugins..."
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:36
+msgid "Active Plugins"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:36
+msgid "Currently enabled extensions"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:37
+msgid "Inactive Plugins"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:37
+msgid "Disabled extensions"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:46
+msgid "Reload Plugins"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:61
+msgid "No plugins found"
+msgstr ""
+
+#: src/components/sidebar/pages/plugins_page.vala:88
+msgid "Plugin Settings"
+msgstr ""
+
+#: src/components/sidebar/pages/region_page.vala:15
+#: src/components/sidebar/views/settings_view.vala:86
+msgid "Region & Language"
+msgstr ""
+
+#: src/components/sidebar/pages/region_page.vala:39
+#: src/components/sidebar/pages/region_page.vala:40
+msgid "Language"
+msgstr ""
+
+#: src/components/sidebar/pages/region_page.vala:47
+#: src/components/sidebar/pages/region_page.vala:48
+msgid "Formats"
+msgstr ""
+
+#: src/components/sidebar/pages/region_page.vala:62
+msgid "Changes will take effect on next login."
+msgstr ""
+
+#: src/components/sidebar/pages/region_page.vala:70
+msgid "Search locale..."
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:9
+#: src/components/sidebar/views/settings_view.vala:89
+msgid "Sound"
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:14
+msgid "Output"
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:44
+msgid "Input"
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:91
+msgid "No output devices found"
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:128
+msgid "No input devices found"
+msgstr ""
+
+#: src/components/sidebar/pages/sound_page.vala:164
+msgid "No applications playing audio"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:11
+msgid "About"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:30
+msgid "Device Name"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:35
+msgid "Apply Hostname"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:40
+msgid "Hardware Information"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:47
+msgid "Software Information"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:55
+msgid "Experimental"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:58
+msgid "Preview Features"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:58
+msgid "Enable experimental features like Auto-Tiling"
+msgstr ""
+
+#: src/components/sidebar/pages/system_page.vala:61
+msgid "Show the Developer settings page"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:24
+#: src/components/sidebar/views/settings_view.vala:83
+msgid "Users"
+msgstr ""
+
+#. Header: lock/unlock + add
+#: src/components/sidebar/pages/users_page.vala:30
+#: src/components/sidebar/pages/users_page.vala:67
+msgid "Unlock to make changes"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:36
+#: src/components/sidebar/pages/users_page.vala:280
+msgid "Add User"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:42
+msgid "System Users"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:67
+msgid "Lock settings"
+msgstr ""
+
+#. User info card
+#: src/components/sidebar/pages/users_page.vala:171
+msgid "Full Name"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:172
+msgid "(not set)"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:173
+msgid "Username"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:175
+msgid "Home"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:177
+msgid "Shell"
+msgstr ""
+
+#. Type
+#: src/components/sidebar/pages/users_page.vala:186
+msgid "Account"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:188
+#: src/components/sidebar/pages/users_page.vala:294
+msgid "Account Type"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:194
+msgid "Account Locked"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:194
+msgid "Prevent login"
+msgstr ""
+
+#. Danger zone
+#: src/components/sidebar/pages/users_page.vala:202
+msgid "Danger Zone"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:203
+msgid "Remove User"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:203
+msgid "Permanently delete this account and home folder"
+msgstr ""
+
+#. Replace page content with inline confirmation
+#: src/components/sidebar/pages/users_page.vala:225
+msgid "Confirm deletion"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:242
+msgid "Delete Account"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:289
+msgid "New Account"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:294
+msgid "Standard"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:320
+msgid "Create User"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:336
+msgid "Fill in all fields"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:346
+msgid "Failed to hash password"
+msgstr ""
+
+#: src/components/sidebar/pages/users_page.vala:359
+msgid "Failed to create user"
+msgstr ""
+
+#. Connection type + name.
+#: src/components/sidebar/pages/vpn_config_page.vala:46
+msgid "Connection"
+msgstr ""
+
+#: src/components/sidebar/pages/vpn_config_page.vala:47
+msgid "Type"
+msgstr ""
+
+#: src/components/sidebar/pages/vpn_config_page.vala:47
+#: src/components/sidebar/pages/vpn_config_page.vala:91
+msgid "WireGuard"
+msgstr ""
+
+#: src/components/sidebar/pages/vpn_config_page.vala:47
+#: src/components/sidebar/pages/vpn_config_page.vala:111
+msgid "OpenVPN"
+msgstr ""
+
+#: src/components/sidebar/views/session_restore_dialog.vala:39
+msgid "Reopen your windows?"
+msgstr ""
+
+#: src/components/sidebar/views/session_restore_dialog.vala:43
+msgid "Pick which windows from your last session to restore."
+msgstr ""
+
+#: src/components/sidebar/views/session_restore_dialog.vala:68
+msgid "Not now"
+msgstr ""
+
+#: src/components/sidebar/views/session_restore_dialog.vala:74
+msgid "Reopen"
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:72
+msgid ""
+"Container Mode\n"
+"Some features may be limited."
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:82
+msgid "Apps"
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:99
+msgid "System"
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:262
+msgid "Search Settings"
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:352
+msgid "No Results"
+msgstr ""
+
+#: src/components/sidebar/views/settings_view.vala:490
+#: src/components/sidebar/widgets/developer_page.vala:45
+msgid "Developer"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:75
+msgid "Log Out"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:159
+#: src/components/sidebar/views/system_view.vala:165
+#: src/components/sidebar/views/system_view.vala:171
+#: src/components/sidebar/views/system_view.vala:177
+#: src/components/sidebar/views/system_view.vala:186
+#: src/components/sidebar/views/system_view.vala:189
+#: src/components/sidebar/views/system_view.vala:198
+#: src/components/sidebar/views/system_view.vala:201
+#: src/components/sidebar/views/system_view.vala:210
+#: src/components/sidebar/views/system_view.vala:214
+#: src/components/sidebar/views/system_view.vala:288
+#: src/components/sidebar/views/system_view.vala:297
+#: src/components/sidebar/views/system_view.vala:584
+msgid "On"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:159
+#: src/components/sidebar/views/system_view.vala:165
+#: src/components/sidebar/views/system_view.vala:171
+#: src/components/sidebar/views/system_view.vala:177
+#: src/components/sidebar/views/system_view.vala:186
+#: src/components/sidebar/views/system_view.vala:189
+#: src/components/sidebar/views/system_view.vala:198
+#: src/components/sidebar/views/system_view.vala:201
+#: src/components/sidebar/views/system_view.vala:210
+#: src/components/sidebar/views/system_view.vala:214
+#: src/components/sidebar/views/system_view.vala:281
+#: src/components/sidebar/views/system_view.vala:288
+#: src/components/sidebar/views/system_view.vala:297
+#: src/components/sidebar/views/system_view.vala:584
+msgid "Off"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:281
+msgid "Connecting…"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:335
+#: src/components/sidebar/views/system_view.vala:342
+msgid "Inactive"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:485
+msgid "Open settings"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:553
+#, c-format
+msgid "%dh %dm"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:555
+msgid "Charging"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:562
+#, c-format
+msgid "%dh %dm left"
+msgstr ""
+
+#: src/components/sidebar/views/system_view.vala:562
+#, c-format
+msgid "%dm left"
+msgstr ""
+
+#. Debug Control
+#: src/components/sidebar/widgets/developer_page.vala:51
+msgid "Debug"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:54
+msgid "Debug Mode"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:65
+msgid "Show HUD Overlay"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:76
+msgid "Keep Sidebar Open"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:84
+msgid "Keep Overview Open"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:92
+msgid "Keep Workspaces Open"
+msgstr ""
+
+#. GTK Rendering Tools
+#: src/components/sidebar/widgets/developer_page.vala:103
+msgid "GTK Rendering Tools"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:105
+msgid "Open GTK Inspector"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:120
+msgid "Enable Animations"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:128
+msgid "Show Widget Borders"
+msgstr ""
+
+#. App System
+#: src/components/sidebar/widgets/developer_page.vala:138
+#: src/components/sidebar/widgets/developer_page.vala:157
+msgid "App System"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:150
+msgid "Force apps-changed Signal"
+msgstr ""
+
+#. Wallpaper Manager
+#: src/components/sidebar/widgets/developer_page.vala:162
+msgid "Wallpaper Manager"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:171
+msgid "Reload Wallpaper"
+msgstr ""
+
+#. Tiling Manager
+#: src/components/sidebar/widgets/developer_page.vala:182
+msgid "Tiling Manager"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:184
+msgid "Auto-Tiling"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:192
+msgid "Apply Layout Now"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:214
+#: src/components/sidebar/widgets/developer_page.vala:312
+#: src/components/sidebar/widgets/developer_page.vala:324
+msgid "Trigger"
+msgstr ""
+
+#. Desktop Resources
+#: src/components/sidebar/widgets/developer_page.vala:226
+msgid "Desktop Resources"
+msgstr ""
+
+#. Add total row
+#: src/components/sidebar/widgets/developer_page.vala:263
+msgid "TOTAL"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:278
+msgid "Send Test Notification"
+msgstr ""
+
+#. XDG Portal
+#: src/components/sidebar/widgets/developer_page.vala:294
+msgid "XDG Portal"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:300
+msgid "Check"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:309
+msgid "Test Screenshot Portal"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:321
+msgid "Test App Chooser"
+msgstr ""
+
+#. Window Preview
+#: src/components/sidebar/widgets/developer_page.vala:336
+msgid "Window Preview"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:343
+msgid "First Window"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:344
+msgid "Capture"
+msgstr ""
+
+#. Shell Log
+#: src/components/sidebar/widgets/developer_page.vala:357
+msgid "Shell Log"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:373
+msgid "Clear"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:376
+msgid "Restart Tail"
+msgstr ""
+
+#. Restart Shell - must be a Button (ActionRow.activated won't fire in Box)
+#: src/components/sidebar/widgets/developer_page.vala:381
+msgid "Restart Shell"
+msgstr ""
+
+#: src/components/sidebar/widgets/developer_page.vala:393
+msgid "Diagnostics"
+msgstr ""
+
+#: src/core/debug_hud_window.vala:47
+msgid "Debug HUD"
+msgstr ""
+
+#: src/core/debug_hud_window.vala:76 src/core/main.vala:1033
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#: src/core/main.vala:1022
+msgid "Permission Request"
+msgstr ""
+
+#: src/core/main.vala:1040
+msgid "Allow"
+msgstr ""
+
+#: src/core/main.vala:1040
+msgid "Grant this time only"
+msgstr ""
+
+#: src/core/main.vala:1044
+msgid "This Session"
+msgstr ""
+
+#: src/core/main.vala:1044
+msgid "Grant until you log out"
+msgstr ""
+
+#: src/core/main.vala:1048
+msgid "Always"
+msgstr ""
+
+#: src/core/main.vala:1048
+msgid "Remember and never ask again"
+msgstr ""
+
+#: src/core/main.vala:1054
+msgid "Deny"
+msgstr ""
+
+#: src/core/screenshot_tool.vala:102
+msgid "Decrease delay"
+msgstr ""
+
+#: src/core/screenshot_tool.vala:119
+msgid "Increase delay"
+msgstr ""
+
+#: src/core/screenshot_tool.vala:135
+msgid "Record Video"
+msgstr ""
+
+#: src/core/screenshot_tool.vala:143
+msgid "Take Screenshot"
+msgstr ""
+
+#: src/core/screenshot_tool.vala:159
+msgid "Include cursor"
+msgstr ""
+
+#: src/greeter/greeter_topbar.vala:22
+msgid "Greeter TopBar (Test Mode)"
+msgstr ""
+
+#: src/greeter/greeter_topbar.vala:74
+msgid "%a, %b %e  %H:%M"
+msgstr ""
+
+#: src/greeter/greeter_window.vala:26
+msgid "Singularity Greeter (Test Mode)"
+msgstr ""
+
+#: src/greeter/greeter_window.vala:98 src/lockscreen/lock_screen.vala:168
+#: src/shared/widgets/password_dialog.vala:35
+msgid "Password"
+msgstr ""
+
+#: src/greeter/greeter_window.vala:110
+msgid "Sign In"
+msgstr ""
+
+#: src/greeter/greeter_window.vala:198 src/lockscreen/lock_screen.vala:279
+msgid "%A, %B %e"
+msgstr ""
+
+#: src/greeter/greeter_window.vala:231 src/lockscreen/lock_screen.vala:223
+msgid "Incorrect password"
+msgstr ""
+
+#: src/lockscreen/lock_screen.vala:180
+msgid "Unlock"
+msgstr ""
+
+#: src/shared/widgets/password_dialog.vala:27
+#, c-format
+msgid "Connect to <b>%s</b>"
+msgstr ""
+
+#: src/shared/widgets/password_dialog.vala:42
+msgid "Show password"
+msgstr ""

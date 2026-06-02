@@ -1,0 +1,33 @@
+name: libsingularity CI
+
+on:
+  push:
+    paths:
+      - 'subprojects/libsingularity/**'
+  pull_request:
+    paths:
+      - 'subprojects/libsingularity/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: fedora:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          dnf install -y \
+            meson ninja-build valac \
+            gtk4-devel gtk4-layer-shell-devel \
+            libgee-devel json-glib-devel \
+            libpeas2-devel valadoc
+      - name: Build
+        working-directory: subprojects/libsingularity
+        run: |
+          meson setup build --buildtype=release
+          ninja -C build
+      - name: Generate docs
+        working-directory: subprojects/libsingularity
+        run: ninja -C build docs
+        continue-on-error: true

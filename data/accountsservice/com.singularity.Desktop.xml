@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node>
+  <interface name="com.singularity.Desktop">
+    <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
+    <property name="Accent" type="s" access="readwrite"/>
+    <property name="Background" type="s" access="readwrite"/>
+  </interface>
+</node>
