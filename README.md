@@ -15,6 +15,7 @@ sharing the [libsingularity](subprojects/libsingularity) toolkit.
 - gnome-desktop-4, libsoup-3.0, json-glib-1.0, libpeas-2
 - vte-2.91-gtk4, gtksourceview-5, poppler-glib
 - dbusmenu-glib-0.4, atspi-2, tracker-sparql-3.0, gudev-1.0, libcrypt
+- PAM (`libpam`, lock screen authentication)
 - labwc (built as a subproject) and xdg-desktop-portal-singularity
 
 ## Build & Install
