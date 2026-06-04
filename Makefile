@@ -8,7 +8,7 @@ $(BUILD_DIR)/build.ninja:
 	meson setup $(BUILD_DIR) || { rm -rf $(BUILD_DIR); meson setup $(BUILD_DIR); }
 
 $(LABWC_BUILD)/build.ninja:
-	meson setup $(LABWC_BUILD) $(LABWC_DIR) --prefix=/usr --buildtype=release || { rm -rf $(LABWC_BUILD); meson setup $(LABWC_BUILD) $(LABWC_DIR) --prefix=/usr --buildtype=release; }
+	meson setup $(LABWC_BUILD) $(LABWC_DIR) --prefix=/usr --buildtype=release -Dxwayland=enabled || { rm -rf $(LABWC_BUILD); meson setup $(LABWC_BUILD) $(LABWC_DIR) --prefix=/usr --buildtype=release -Dxwayland=enabled; }
 
 labwc: $(LABWC_BUILD)/build.ninja
 	meson compile -C $(LABWC_BUILD)
