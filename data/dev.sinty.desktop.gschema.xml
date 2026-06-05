@@ -199,6 +199,11 @@
       <summary>Disable Client Side Decorations</summary>
       <description>Forces Server Side Decorations (SSD) by disabling CSD in GTK and Qt apps.</description>
     </key>
+    <key name="legacy-titlebar" type="b">
+      <default>false</default>
+      <summary>Use legacy titlebar</summary>
+      <description>Show a classic static titlebar with inline buttons instead of the floating hover window controls. Ignored when force-ssd is enabled.</description>
+    </key>
     <key name="window-rounded-corners" type="b">
       <default>true</default>
       <summary>Rounded window corners</summary>
