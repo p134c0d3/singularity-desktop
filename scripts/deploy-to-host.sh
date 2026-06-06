@@ -262,9 +262,9 @@ for d in /usr/share/dbus-1/services /usr/local/share/dbus-1/services; do
 done
 if [ -z "$SYS_DBUS" ]; then
     SYS_DBUS="$OPT_DBUS"
-    echo "  WARNING: no writable system dbus-1/services dir; using $SYS_DBUS"
-    echo "  (the session bus only scans XDG_DATA_DIRS at startup, so the portal"
-    echo "   may be unreachable until $OPT_SHARE is on the bus search path)"
+    echo "  Note: no writable system dbus-1/services dir; using $SYS_DBUS"
+    echo "  (the portal still starts in-session from its systemd user unit; only"
+    echo "   D-Bus auto-activation outside the session would miss it here)"
 else
     echo "  D-Bus activation services -> $SYS_DBUS"
 fi
