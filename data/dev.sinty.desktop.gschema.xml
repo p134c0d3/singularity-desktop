@@ -320,5 +320,10 @@
       <default>false</default>
       <summary>Natural scrolling on touchpad</summary>
     </key>
+    <key name="icon-theme" type="s">
+      <default>"Singularity"</default>
+      <summary>Icon theme name</summary>
+      <description>Icon theme used by the shell and all applications.</description>
+    </key>
   </schema>
 </schemalist>
