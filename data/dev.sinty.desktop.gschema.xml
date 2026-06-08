@@ -137,6 +137,11 @@
       <summary>Custom Accent Color</summary>
       <description>Hex color (#rrggbb) used when accent-color is set to 'custom'.</description>
     </key>
+    <key name="custom-accent-colors" type="as">
+      <default>[]</default>
+      <summary>Custom Accent Color Palette</summary>
+      <description>User-created custom accent colors (#rrggbb), shown as swatches in the accent picker.</description>
+    </key>
     <key name="show-desktop-icons" type="b">
       <default>false</default>
       <summary>Show Desktop Icons</summary>
