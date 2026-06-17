@@ -261,6 +261,21 @@
       <summary>Active Window Title</summary>
       <description>Title of the currently focused window. Updated by the shell.</description>
     </key>
+    <key name="hotspot-ssid" type="s">
+      <default>''</default>
+      <summary>Hotspot Name</summary>
+      <description>SSID broadcast by the Wi-Fi hotspot. Empty means use the hostname.</description>
+    </key>
+    <key name="hotspot-password" type="s">
+      <default>''</default>
+      <summary>Hotspot Password</summary>
+      <description>Pre-shared key for the Wi-Fi hotspot. Empty means generate one.</description>
+    </key>
+    <key name="hotspot-wpa3" type="b">
+      <default>false</default>
+      <summary>Hotspot WPA3</summary>
+      <description>When enabled, the Wi-Fi hotspot uses WPA3 (SAE) instead of WPA2.</description>
+    </key>
     <key name="window-states" type="a{s(iib)}">
       <default>{}</default>
       <summary>Saved window states</summary>
