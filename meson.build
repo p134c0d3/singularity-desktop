@@ -9,6 +9,7 @@ subdir('data')
 subdir('po')
 
 subproject('libsingularity')
+subproject('singularity-loginui')
 
 subproject('xdg-desktop-portal-singularity')
 subproject('singularity-polkit-agent')
