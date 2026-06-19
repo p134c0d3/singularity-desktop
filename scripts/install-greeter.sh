@@ -67,7 +67,9 @@ for drv in /sys/class/drm/card[0-9]*/device/driver; do
             break ;;
     esac
 done
-exec "$BIN/labwc" -s "$GREETD_DIR/greeter-session"
+_LLOG="\${HOME:-/var/lib/greetd}/labwc.log"
+[ -f "\$_LLOG" ] && mv -f "\$_LLOG" "\$_LLOG.1" 2>/dev/null || true
+exec "$BIN/labwc" -s "$GREETD_DIR/greeter-session" >> "\$_LLOG" 2>&1
 EOF
 chmod +x "$GREETD_DIR/start-greeter"
 
@@ -99,6 +101,17 @@ fi
 if command -v getenforce >/dev/null 2>&1 && [ "$(getenforce)" != "Disabled" ]; then
     chcon -t bin_t "$GREETD_DIR/start-greeter" "$GREETD_DIR/greeter-session" 2>/dev/null || true
 fi
+
+# greetd must own tty1; a getty left running on the same VT fights it and labwc
+# cannot hold the DRM master (atomic commit: Permission denied). Stop the getty
+# whenever greetd runs, the standard display-manager-owns-VT pattern.
+mkdir -p /etc/systemd/system/greetd.service.d
+cat > /etc/systemd/system/greetd.service.d/10-vt.conf <<EOF
+[Unit]
+Conflicts=getty@tty1.service
+After=getty@tty1.service
+EOF
+systemctl daemon-reload 2>/dev/null || true
 
 echo "Singularity greeter configured for greetd in $GREETD_DIR."
 echo
