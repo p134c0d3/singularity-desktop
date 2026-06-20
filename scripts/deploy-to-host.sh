@@ -137,6 +137,14 @@ acopy "$BUILD/subprojects/libsingularity/libsingularity.so.0.1.0" \
 ln -sf libsingularity.so.0.1.0 "$OPT_LIB/libsingularity.so.0"
 ln -sf libsingularity.so.0.1.0 "$OPT_LIB/libsingularity.so"
 
+if [ -f "$BUILD/subprojects/libsingularity/libsingularity-system.so.0.1.0" ]; then
+    acopy "$BUILD/subprojects/libsingularity/libsingularity-system.so.0.1.0" \
+          "$OPT_LIB/libsingularity-system.so.0.1.0"
+    ln -sf libsingularity-system.so.0.1.0 "$OPT_LIB/libsingularity-system.so.0"
+    ln -sf libsingularity-system.so.0.1.0 "$OPT_LIB/libsingularity-system.so"
+    echo "  libsingularity-system.so.0.1.0"
+fi
+
 if [ -d "$BUILD/extra-libs" ]; then
     for lib in "$BUILD/extra-libs/"*.so*; do
         [ -f "$lib" ] && acopy "$lib" "$OPT_LIB/$(basename "$lib")"

@@ -77,6 +77,14 @@ strip --strip-unneeded "$OPT_LIB/libsingularity.so.0.1.0"
 ln -sf libsingularity.so.0.1.0 "$OPT_LIB/libsingularity.so.0"
 ln -sf libsingularity.so.0.1.0 "$OPT_LIB/libsingularity.so"
 
+if [ -f "$BUILD/subprojects/libsingularity/libsingularity-system.so.0.1.0" ]; then
+    cp "$BUILD/subprojects/libsingularity/libsingularity-system.so.0.1.0" "$OPT_LIB/"
+    strip --strip-unneeded "$OPT_LIB/libsingularity-system.so.0.1.0"
+    ln -sf libsingularity-system.so.0.1.0 "$OPT_LIB/libsingularity-system.so.0"
+    ln -sf libsingularity-system.so.0.1.0 "$OPT_LIB/libsingularity-system.so"
+    echo "  libsingularity-system.so.0.1.0"
+fi
+
 if [ -d "$BUILD/extra-libs" ]; then
     echo "Installing bundled runtime libraries..."
     for lib in "$BUILD/extra-libs/"*.so*; do

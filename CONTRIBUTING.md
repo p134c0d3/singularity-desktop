@@ -82,6 +82,18 @@ Language: **Vala** (GTK4, no Adwaita dependency in core shell).
 - Follow the `PreferencesGroup` / `SwitchRow` / `ActionRow` pattern for settings UI
 - Settings pages must be **inline** (no modals). Use `SettingsView.open_subpage()` for detail pages
 
+### Where system logic goes
+
+Headless system backends (D-Bus, sysfs, hardware managers with no GTK) live in
+`libsingularity-system` (`subprojects/libsingularity/src/system/`), not in the
+shell. They expose GObject properties and signals; the shell and apps wire them
+to the UI. A backend must not `using Gtk` or reference shell-only symbols
+(`SystemMonitor`, `AppSystem`, the `wayland_*` C bindings); if it does, it stays
+in the shell until that coupling is removed. `libsingularity-system` is built
+only with `-Dsystem=true` (the default), so apps that need only the UI toolkit
+build with `-Dlibsingularity:system=false` and avoid the heavy deps (libpulse,
+upower, gudev).
+
 ---
 
 ## Architecture Overview
@@ -98,7 +110,9 @@ singularity-desktop/
 │   ├── wayland/        # C Wayland protocol bindings
 │   └── portal/         # xdg-desktop-portal implementation
 ├── subprojects/
-│   └── libsingularity/ # Shared widget library
+│   └── libsingularity/ # Shared libraries:
+│       ├── src/ui/     #   libsingularity      (GTK4 UI toolkit)
+│       └── src/system/ #   libsingularity-system (headless system backends)
 └── docs/               # Architecture and feature plans
 ```
 

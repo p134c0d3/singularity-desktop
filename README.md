@@ -54,7 +54,7 @@ mode, accent color, dock and workspace layout, developer mode, and more).
 ## Components
 
 - Shell: `src/` (core managers, panel, dock, overview, sidebar/settings).
-- Toolkit: `subprojects/libsingularity`.
+- Toolkit: `subprojects/libsingularity` (ships `libsingularity`, the GTK4 UI toolkit, and `libsingularity-system`, the headless system backends; see its README).
 - Compositor: `subprojects/labwc`.
 - Portals: `subprojects/xdg-desktop-portal-singularity`.
 - Applications: the other `subprojects/singularity-*` repositories.
