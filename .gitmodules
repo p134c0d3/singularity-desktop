@@ -107,3 +107,6 @@
 [submodule "subprojects/singularity-loginui"]
 	path = subprojects/singularity-loginui
 	url = https://github.com/singularityos-lab/singularity-loginui.git
+[submodule "subprojects/singularity-installer"]
+	path = subprojects/singularity-installer
+	url = https://github.com/singularityos-lab/singularity-installer.git

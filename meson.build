@@ -20,6 +20,9 @@ subproject('singularity-calculator')
 subproject('singularity-greeter')
 subproject('singularity-splash')
 subproject('singularity-leafs')
+if get_option('installer')
+  subproject('singularity-installer')
+endif
 # singularity-browser: archived until feature-complete
 # subproject('singularity-browser')
 subproject('singularity-edit')
